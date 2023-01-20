@@ -28,7 +28,7 @@ scissors= '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
+
 gameset=[rock,paper,scissors]
 computer=random.choice(gameset)
 user=input('Choose either rock(1) or  paper(2) or scissors(3): ')
