@@ -1,2 +1,2 @@
-## Rock Paper Scissors
+## Mini programs for practicising python
 
