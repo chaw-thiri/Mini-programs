@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "repl_nix_Hangman"
+name = "repl_nix_Caesar-cipher"
 version = "0.1.0"
 description = ""
-authors = ["ChawThiri1 <<>>"]
+authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
