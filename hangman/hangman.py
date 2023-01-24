@@ -1,8 +1,10 @@
 # python 
 # hangman game
 import random
+import hangman_emoji
+import hangman_word
 
-word_list = ["aardvark", "baboon", "camel"]
+
 chosen_word = random.choice(word_list)
 display_list=[]
 stages = ['''
@@ -92,6 +94,8 @@ def check():
   lose()
   
 # displaying _ for number of alphabets
+
+print(logo)
 for i in range(len(chosen_word)):
   display_list.append('_')
 print(''.join(display_list))
