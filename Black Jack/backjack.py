@@ -79,6 +79,8 @@ while new:
         print('Computer wins')
       elif user_sum > computer_sum:
         print('You win')
+      elif user_sum == computer_sum:
+        print('Draw')
   new_game= input('Do you want to start a new game? Yes or No ').lower()
   if new_game == "no":
     new = False
