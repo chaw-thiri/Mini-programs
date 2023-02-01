@@ -1,3 +1,5 @@
+# python 3
+# highter_lower game : entertainment
 from game_data import data
 import art
 import random
